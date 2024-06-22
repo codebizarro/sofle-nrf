@@ -67,7 +67,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
+                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
         };
 
         raise_layer {
@@ -86,7 +86,9 @@
                                &trans        &kp LEFT_ALT  &trans            &trans        &trans  &trans  &trans          &trans         &kp RIGHT_ALT  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp DELETE BACKSPACE>;
         };
 
         Layer__3 {
