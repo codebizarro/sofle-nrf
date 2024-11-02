@@ -66,8 +66,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp DEL BACKSPACE>,
-                <&inc_dec_kp DEL BACKSPACE>;
+                <&inc_dec_kp BACKSPACE DEL>,
+                <&inc_dec_kp BACKSPACE DEL>;
         };
 
         raise_layer {
@@ -87,8 +87,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp DEL BACKSPACE>,
-                <&inc_dec_kp DELETE BACKSPACE>;
+                <&inc_dec_kp BACKSPACE DEL>,
+                <&inc_dec_kp BACKSPACE DEL>;
         };
 
         Layer__3 {
