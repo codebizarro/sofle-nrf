@@ -18,9 +18,70 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+        f1 {
+            bindings = <&kp LS(EXCLAMATION)>;
+            key-positions = <1 13>;
+            layers = <0>;
+        };
+
+        f2 {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <2 14>;
+            layers = <0>;
+        };
+
+        f3 {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+            layers = <0>;
+        };
+
+        f4 {
+            bindings = <&kp HASH>;
+            key-positions = <4 16>;
+            layers = <0>;
+        };
+
+        f5 {
+            bindings = <&kp PERCENT>;
+            key-positions = <17 5>;
+            layers = <0>;
+        };
+
+        f6 {
+            bindings = <&kp CARET>;
+            key-positions = <6 18>;
+            layers = <0>;
+        };
+
+        f7 {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        f8 {
+            bindings = <&kp ASTERISK>;
+            key-positions = <8 20>;
+            layers = <0>;
+        };
+
+        f9 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <9 21>;
+            layers = <0>;
+        };
+
+        f10 {
+            bindings = <&kp LPAR>;
+            key-positions = <10 22>;
+            layers = <0>;
+        };
+
+        f11 {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <11 23>;
+            layers = <0>;
         };
     };
 
