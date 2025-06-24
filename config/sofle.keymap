@@ -37,7 +37,7 @@
         };
 
         f4 {
-            bindings = <&kp HASH>;
+            bindings = <&kp DOLLAR>;
             key-positions = <4 16>;
             layers = <0>;
         };
@@ -73,7 +73,7 @@
         };
 
         f10 {
-            bindings = <&kp LPAR>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <10 22>;
             layers = <0>;
         };
