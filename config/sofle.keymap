@@ -86,7 +86,7 @@
 
         esc-grave {
             bindings = <&kp GRAVE>;
-            key-positions = <0 13>;
+            key-positions = <0 12>;
             layers = <0>;
         };
 
@@ -99,6 +99,12 @@
         f6-2 {
             bindings = <&kp CARET>;
             key-positions = <6 19>;
+            layers = <0>;
+        };
+
+        esc-grave-2 {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 13>;
             layers = <0>;
         };
     };
