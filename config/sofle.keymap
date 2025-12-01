@@ -18,68 +18,8 @@
     combos {
         compatible = "zmk,combos";
 
-        f1 {
-            bindings = <&kp LS(EXCLAMATION)>;
-            key-positions = <1 14>;
-            layers = <0>;
-        };
-
-        f2 {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <2 15>;
-            layers = <0>;
-        };
-
-        f3 {
-            bindings = <&kp HASH>;
-            key-positions = <3 16>;
-            layers = <0>;
-        };
-
-        f4 {
-            bindings = <&kp DOLLAR>;
-            key-positions = <4 17>;
-            layers = <0>;
-        };
-
-        f5 {
-            bindings = <&kp PERCENT>;
-            key-positions = <17 5>;
-            layers = <0>;
-        };
-
-        f6 {
-            bindings = <&kp CARET>;
-            key-positions = <6 18>;
-            layers = <0>;
-        };
-
-        f7 {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <7 18>;
-            layers = <0>;
-        };
-
-        f8 {
-            bindings = <&kp ASTERISK>;
-            key-positions = <8 19>;
-            layers = <0>;
-        };
-
-        f9 {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <9 20>;
-            layers = <0>;
-        };
-
-        f10 {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <10 21>;
-            layers = <0>;
-        };
-
         f11 {
-            bindings = <&kp UNDERSCORE>;
+            bindings = <&kp EQUAL>;
             key-positions = <11 22>;
             layers = <0>;
         };
@@ -87,18 +27,6 @@
         esc-grave {
             bindings = <&kp GRAVE>;
             key-positions = <0 12>;
-            layers = <0>;
-        };
-
-        f5-2 {
-            bindings = <&kp PERCENT>;
-            key-positions = <5 16>;
-            layers = <0>;
-        };
-
-        f6-2 {
-            bindings = <&kp CARET>;
-            key-positions = <6 19>;
             layers = <0>;
         };
 
