@@ -35,6 +35,61 @@
             key-positions = <0 13>;
             layers = <0>;
         };
+
+        w1 {
+            bindings = <&none>;
+            key-positions = <1 14>;
+        };
+
+        e2 {
+            bindings = <&none>;
+            key-positions = <2 15>;
+        };
+
+        r3 {
+            bindings = <&none>;
+            key-positions = <3 16>;
+        };
+
+        t4 {
+            bindings = <&none>;
+            key-positions = <4 17>;
+        };
+
+        t5 {
+            bindings = <&none>;
+            key-positions = <17 5>;
+        };
+
+        y6 {
+            bindings = <&none>;
+            key-positions = <6 18>;
+        };
+
+        y7 {
+            bindings = <&none>;
+            key-positions = <18 7>;
+        };
+
+        u8 {
+            bindings = <&none>;
+            key-positions = <8 19>;
+        };
+
+        i9 {
+            bindings = <&none>;
+            key-positions = <9 20>;
+        };
+
+        o0 {
+            bindings = <&none>;
+            key-positions = <10 21>;
+        };
+
+        p- {
+            bindings = <&none>;
+            key-positions = <11 22>;
+        };
     };
 
     keymap {
